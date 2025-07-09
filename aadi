@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Premium Purple Theme</title>
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    /* Base styles */
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Hero / Header */
+    .hero {
+      background-color: #4B0082; /* Dark Purple */
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero .btn {
+      background-color: #9C27B0; /* Medium Purple */
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .hero .btn:hover {
+      background-color: #8e24aa;
+    }
+
+    /* Features */
+    .features {
+      background-color: #D8BFD8; /* Light Purple */
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .features h2 {
+      margin-bottom: 2rem;
+      color: #4B0082;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .feature-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .feature-box h3 {
+      margin-bottom: 1rem;
+      color: #4B0082;
+    }
+
+    /* About */
+    .about {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .about h2 {
+      margin-bottom: 1rem;
+      color: #4B0082;
+      text-align: center;
+    }
+    .about p {
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #ddd;
+      padding: 20px;
+      text-align: center;
+    }
+    footer a {
+      color: #9C27B0;
+    }
+    footer .instalink {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Welcome to My Premium Site</h1>
+      <p>Experience elegance, security, and performance in every interaction.</p>
+      <a href="#features" class="btn">Discover More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Why Choose Us</h2>
+    <div class="feature-grid">
+      <div class="feature-box">
+        <h3>✨ Exclusive Design</h3>
+        <p>Custom-crafted layouts with dark purple aesthetics to stand out.</p>
+      </div>
+      <div class="feature-box">
+        <h3>⚡ Lightning Fast</h3>
+        <p>Optimized code ensures speedy load times and smooth UX.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🔒 Secure & Reliable</h3>
+        <p>SSL encryption, GDPR compliance, and trusted infrastructure.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📱 Fully Responsive</h3>
+        <p>Looks perfect on all devices—desktop, tablet, and mobile.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi there! I'm a passionate developer focused on creating premium, visually stunning, and highly functional websites. With a blend of cutting-edge design and modern web technologies, I bring your vision to life.</p>
+    <p>Follow me on Instagram for updates, tips, and behind-the-scenes:</p>
+    <p class="instalink">
+      <a href="https://instagram.com/_aadi_dhattarwal_x9" target="_blank">
+        @_aadi_dhattarwal_x9
+      </a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Premium Purple Theme. All rights reserved.</p>
+    <p>Follow on Instagram: <a href="https://instagram.com/_aadi_dhattarwal_x9" target="_blank">
+      @_aadi_dhattarwal_x9
+    </a></p>
+  </footer>
+
+</body>
+</html>
